@@ -8,3 +8,10 @@ const sample_variance = numbers => {
 }
 
 const standard_deviation = numbers => Math.sqrt(sample_variance(numbers));
+
+export {
+  add,
+  mean,
+  sample_variance,
+  standard_deviation,
+}
